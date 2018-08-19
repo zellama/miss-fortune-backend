@@ -1,0 +1,36 @@
+{
+  "name": "miss-fortune-backend",
+  "version": "0.0.0",
+  "description": "Backend server for the Miss Fortune app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resong/miss-fortune-backend.git"
+  },
+  "authors": [
+    "Rebecca Song",
+    "Kitty Yau"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resong/miss-fortune-backend/issues"
+  },
+  "homepage": "https://github.com/resong/miss-fortune-backend#readme",
+  "devDependencies": {
+    "express": "^4.16.3",
+    "jest": "^23.5.0",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "logger": "0.0.1",
+    "morgan": "^1.9.0"
+  }
+}
