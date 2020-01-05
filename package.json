@@ -23,7 +23,7 @@
   "homepage": "https://github.com/resong/miss-fortune-backend#readme",
   "devDependencies": {
     "express": "^4.16.3",
-    "jest": "^23.5.0",
+    "jest": "^24.9.0",
     "nodemon": "^1.18.3"
   },
   "dependencies": {
